@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-svg {
+  height: 4rem;
+  width: 4rem;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 45rem;
+  background-color: rgb(19, 19, 19);
+  padding: 0;
+  margin-left: 5rem;
+}
+
+.logo-img {
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  margin: 0 1.5rem;
+  color: #04bfbf;
+}
